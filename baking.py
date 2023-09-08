@@ -15,8 +15,7 @@ def print_ingredients():  # Ways to work with strings/printing
 
     # 1.2 Using one print statement, use string concatenation to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
-    print(ingredient_1 + " " + ingredient_2 + " " + ingredient_3 + 
-          " " + ingredient_4 )
+    print(ingredient_1 + " " + ingredient_2 + " " + ingredient_3 + " " + ingredient_4 )
 
     # 1.3 Using one print statement, use an f-string to print the ingredients
     # as a single string (make sure to add a space between each ingredient!)
@@ -30,7 +29,7 @@ def confirm_ingredients():  # String methods
 
     # Aha, that's the issue! We need to use butter, not milk.
     # 2.2 In a print statement, use one of the string methods from class to replace 'milk' with 'butter'
-    print(ingredient_1.replace("milk", "butter"))
+    print(ingredients.replace("milk", "butter"))
 
 
     # Hmm, when we use a string method in a print statement, does it change the string in our variable?
